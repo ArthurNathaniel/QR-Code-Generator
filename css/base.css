@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Onest", sans-serif;
+
+
+}
+
+body {
+    font-family: "Onest", sans-serif;
+
+   
+}
+
+
+.all{
+    padding: 0 10%;
+    padding-block: 50px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+.forms input{
+    width: 100%;
+    height: 44px;
+    border: 2px solid #ddd;
+}
+#qrcode {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.controls {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+.controls input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
